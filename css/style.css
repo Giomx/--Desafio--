@@ -25,9 +25,9 @@ header {
     }
 }
 .borrar-producto{
-    background-color: red;
+    background-color: black;
     border-radius: 50%;
-    padding: 5px 10px;
+    padding: 4px 8px;
     text-decoration: none;
     color: white;
     font-weight: bold;
