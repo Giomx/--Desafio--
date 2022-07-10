@@ -27,6 +27,12 @@ function agregarProducto(e){
      const productoSeleccionado = e.target.parentElement.parentElement;
      leerDatosProducto(productoSeleccionado);
      }
+     
+//Agregando libreria
+     Toastify({
+          text: "Producto agregado",
+          duration: 3000
+      }).showToast();
 }
 
 function eliminarProducto(e){
